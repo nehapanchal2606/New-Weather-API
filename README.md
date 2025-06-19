@@ -18,3 +18,8 @@
   - Run the below command for the install necessary Library.
       - pip install -r requirements.txt
   - Add Your Secret token key and api from News and Weather
+
+# step 3:
+ - Run The main file using below command
+    - uvicorn main:app --reload  (Use it when you have create .env file)
+    - fastapi dev main.py (Use it when you direct pass key in the code)
